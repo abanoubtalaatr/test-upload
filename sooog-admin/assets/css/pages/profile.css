@@ -1,0 +1,42 @@
+.profile-page {
+  padding: 2em 0;
+}
+.profile-page h3 {
+  color: var(--color-secondary);
+  padding: 1.5em 0;
+}
+
+.personal-informations .form-control {
+  color: #21262c;
+  margin-bottom: 1em;
+  padding: 1.5em  ;
+}
+
+.personal-informations .form-control[type="password"] {
+  background-color: #f5f5f5;
+}
+
+.personal-informations a {
+  color: #b83933;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.profile-page .actions {
+  padding-top: 7em;
+}
+.profile-page .actions button {
+  margin: 0.5em 0;
+  border: 1px solid transparent;
+  transition: all 0.5s ease;
+}
+.profile-page .actions button:hover {
+  background: #fff;
+  color: #707070;
+  border: 1px solid #381058;
+}
+@media (max-width: 991px) {
+  .profile-page {
+    text-align: center;
+  }
+}

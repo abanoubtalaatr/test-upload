@@ -1,0 +1,77 @@
+.users_page {
+  margin: 4rem 0 2rem;
+}
+.subscribtions_head {
+  margin-top: 3rem;
+}
+.subscribtions_head h4 {
+  color: #777;
+}
+.subscribtions_head a {
+  font-size: 14px;
+  padding: 0.6rem 1rem;
+  margin: 0;
+  margin-left: 1rem;
+}
+.subscribtions_head a i {
+  margin-right: 10px;
+}
+.search_result {
+  position: relative;
+  width: 185px;
+  color: #bdbdbd;
+  margin-left: 1rem;
+  float: left;
+}
+.search_result input {
+  border-color: #e1e1e1;
+  height: 42px;
+  padding-right: 2.5rem;
+  font-size: 16px;
+}
+.search_result input::placeholder {
+  color: #bdbdbd;
+}
+.search_result label {
+  display: none;
+}
+.search_result i {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #bdbdbd;
+  z-index: 333;
+}
+.actions a,
+.actions button {
+  background: none;
+  border: none;
+  color: #777;
+  font-size: 18px;
+}
+
+
+.non-blocke,
+.blocke {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.blocke {
+  background: #ff0000;
+}
+
+.non-blocke {
+  background: #008000;
+}
+
+@media(max-width: 460px) {
+  .subscribtions_head a,
+  .search_result {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+}

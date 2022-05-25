@@ -1,0 +1,141 @@
+.parent_box {
+  width: 90%;
+  margin: 2rem 0;
+}
+.complain_box {
+  background: var(--bg-support);
+  box-shadow: var(--supp-shadow);
+  position: relative;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.complain_box .complain_num {
+  background-color: #541B82;
+  color: #fff;
+  font-size: 12px;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  top: -20px;
+  right: 50px;
+}
+.complain_box .complain_date {
+  color: var(--color);
+  margin-bottom: 2rem;
+  font-size: 14px;
+}
+.complain_box .details p {
+  color: var(--color);
+  font-size: 16px;
+}
+.complain_box .details p span {
+  color: var(--color-secondary);
+  width: 45%;
+  display: inline-block;
+}
+.complain_box .complain_reason {
+  border-top: 1px solid #8d8d8d;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+.complain_box .complain_reason h4 {
+  color: var(--color-secondary);
+  font-size: 16px
+}
+.complain_box .complain_reason p {
+  color: #787993;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.details .complain_status {
+  display: block;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  text-align:center;
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+.details .complain_status.news {
+  background-color: #BB080F;
+}
+.details .complain_status.pending {
+  background-color: #F69A20;
+}
+.details .complain_status.completed {
+  background-color: #059B1E;
+}
+.main-button {
+  padding: .5em 1em;
+  display: block;
+  width: max-content;
+  margin-bottom: 20px;
+  float: right;
+  margin-left: 1rem;
+}
+.upper-search {
+  display: inline-block;
+  margin-left: 1rem;
+}
+.search_result {
+  position: relative;
+  width: 185px;
+  color: #bdbdbd;
+  margin-left: 1rem;
+  display: inline-block;
+}
+.search_result input {
+  border-color: #e1e1e1;
+  height: 42px;
+  padding-right: 2.5rem;
+  font-size: 16px;
+}
+.search_result input::placeholder {
+  color: #bdbdbd;
+}
+.search_result label {
+  display: none;
+}
+.search_result i {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #bdbdbd;
+  z-index: 333;
+}
+@media(max-width: 1200px) {
+  .parent_box {
+    width: 100%;
+  }
+  .main-button {
+    margin-bottom: 20px;
+  }
+}
+@media(max-width: 992px) and (min-width: 768px) {
+  .complain_box .details p span {
+    width: 100%;
+    display: block;
+  }
+  .main-button {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+@media(max-width: 450px) {
+  .complain_box .details p span {
+    width: 100%;
+    display: block;
+  }
+  .main-button {
+    width: 100% ;
+    margin-bottom: 20px;
+  }
+  .search_result {
+    width: 100%;
+  }
+  .complain_box .complain_num {
+    right: 5%;
+  }
+}
+
+

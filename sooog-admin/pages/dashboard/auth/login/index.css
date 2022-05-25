@@ -1,0 +1,77 @@
+.login-page {
+  background: url("~/assets/images/master_login.jpg") no-repeat center center / cover;
+  height: 100vh;
+  text-align: center;
+}
+.login-page .overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100vh;
+}
+
+/* Start Form Login */
+.login-page .form {
+  background-color: #fff;
+  padding: 2em 3em 1em;
+  border-radius: 5px;
+  min-width: 30%;
+}
+.login-page .form h4 {
+  padding-bottom: 0.5em;
+}
+.login-page .form .form-control {
+  background-color: #f6f7f9;
+  margin-bottom: 1em;
+}
+
+.login-page .form .label_checkbox_container:last-child {
+  color: #2680eb;
+}
+.forget-password a {
+  color: #b83933;
+  text-decoration: none;
+}
+.add-tikect {
+  padding: 20px 35px;
+}
+.add-tikect input {
+  margin-bottom: 20px;
+}
+.add-tikect div {
+  text-align: center;
+}
+.add-tikect button {
+  padding: 8px 30px;
+}
+/* End Form Login */
+
+.reset_password {
+  padding: 2rem;
+  text-align: center;
+  color: #350e54;
+}
+.reset_password h3 {
+  font-size: 25px;
+}
+.reset_password img {
+  padding: 2rem;
+}
+@media (max-width: 450px) {
+  .reset_password {
+    padding: 1rem;
+  }
+  .reset_password img {
+    width: 100%;
+  }
+  .reset_password h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .login-page .form {
+    padding: 1em;
+  }
+}

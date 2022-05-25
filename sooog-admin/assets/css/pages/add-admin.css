@@ -1,0 +1,51 @@
+.add_admin_page {
+  padding: 2rem 0;
+  width: 80%;
+}
+.add_admin_page h4 {
+  color: var(--color);
+  margin-bottom: 2rem;
+}
+
+.add_admin_page .second_div {
+  padding-right: 2rem;
+}
+.add_admin_page .input-contant input {
+  padding: 0.75rem;
+  height: 45px;
+  font-size: 14px;
+  padding-right: 3rem;
+  border-radius: 10px;
+}
+.add_admin_page .input-contant input::placeholder {
+  color: #777;
+}
+.add_admin_page .btns_div {
+  margin-top: 6rem;
+}
+.add_admin_page .btns_div button {
+  padding: 0.70rem 6rem;
+  margin-left: 0.5rem;
+  font-size: 14px;
+  transition: all .25s ease-in-out !important;
+}
+.add_admin_page .btns_div button:hover {
+  background: #fff;
+  color: #2f0a4d;
+  border: 1px solid #2f0a4d;
+}
+@media(max-width: 992px) {
+  .add_admin_page {
+    width: 100%;
+  }
+  .add_admin_page .btns_div button {
+    padding: 0.70rem 2rem;
+    width: 200px;
+  }
+}
+@media(max-width: 576px) {
+  .add_admin_page .btns_div button {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}

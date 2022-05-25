@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.5" height="18.197" viewBox="0 0 19.5 18.197">
+  <defs>
+    <linearGradient id="linear-gradient" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbf1e"/>
+      <stop offset="1" stop-color="#ff9138"/>
+    </linearGradient>
+  </defs>
+  <g id="chat-dots-fill" transform="translate(0 -2.25)">
+    <path id="Path_6713" data-name="Path 6713" d="M19.5,10.781c0,4.712-4.365,8.531-9.75,8.531a11.042,11.042,0,0,1-2.861-.373,17.79,17.79,0,0,1-5.1,1.5A.317.317,0,0,1,1.461,20,12.984,12.984,0,0,0,2.4,16.386,7.922,7.922,0,0,1,0,10.781C0,6.069,4.365,2.25,9.75,2.25S19.5,6.069,19.5,10.781Zm-13.406,0A1.219,1.219,0,1,1,4.875,9.563,1.219,1.219,0,0,1,6.094,10.781Zm4.875,0A1.219,1.219,0,1,1,9.75,9.563,1.219,1.219,0,0,1,10.969,10.781ZM14.625,12a1.219,1.219,0,1,0-1.219-1.219A1.219,1.219,0,0,0,14.625,12Z" transform="translate(0)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

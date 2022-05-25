@@ -1,0 +1,18 @@
+<svg id="date-line" xmlns="http://www.w3.org/2000/svg" width="18.999" height="17.812" viewBox="0 0 18.999 17.812">
+  <path id="Path_6393" data-name="Path 6393" d="M19.96,6H18.03V7.187h1.781V20.249H3.187V7.187H4.969V6H3.039A1.057,1.057,0,0,0,2,7.075V20.362a1.057,1.057,0,0,0,1.039,1.075H19.96A1.057,1.057,0,0,0,21,20.362V7.075A1.057,1.057,0,0,0,19.96,6Z" transform="translate(-2 -3.625)" fill="#a6ae9b"/>
+  <path id="Path_6394" data-name="Path 6394" d="M8,14H9.187v1.187H8Z" transform="translate(-4.438 -6.875)" fill="#a6ae9b"/>
+  <path id="Path_6395" data-name="Path 6395" d="M14,14h1.187v1.187H14Z" transform="translate(-6.875 -6.875)" fill="#a6ae9b"/>
+  <path id="Path_6396" data-name="Path 6396" d="M20,14h1.187v1.187H20Z" transform="translate(-9.313 -6.875)" fill="#a6ae9b"/>
+  <path id="Path_6397" data-name="Path 6397" d="M26,14h1.187v1.187H26Z" transform="translate(-11.75 -6.875)" fill="#a6ae9b"/>
+  <path id="Path_6398" data-name="Path 6398" d="M8,19H9.187v1.187H8Z" transform="translate(-4.438 -8.907)" fill="#a6ae9b"/>
+  <path id="Path_6399" data-name="Path 6399" d="M14,19h1.187v1.187H14Z" transform="translate(-6.875 -8.907)" fill="#a6ae9b"/>
+  <path id="Path_6400" data-name="Path 6400" d="M20,19h1.187v1.187H20Z" transform="translate(-9.313 -8.907)" fill="#a6ae9b"/>
+  <path id="Path_6401" data-name="Path 6401" d="M26,19h1.187v1.187H26Z" transform="translate(-11.75 -8.907)" fill="#a6ae9b"/>
+  <path id="Path_6402" data-name="Path 6402" d="M8,24H9.187v1.187H8Z" transform="translate(-4.438 -10.938)" fill="#a6ae9b"/>
+  <path id="Path_6403" data-name="Path 6403" d="M14,24h1.187v1.187H14Z" transform="translate(-6.875 -10.938)" fill="#a6ae9b"/>
+  <path id="Path_6404" data-name="Path 6404" d="M20,24h1.187v1.187H20Z" transform="translate(-9.313 -10.938)" fill="#a6ae9b"/>
+  <path id="Path_6405" data-name="Path 6405" d="M26,24h1.187v1.187H26Z" transform="translate(-11.75 -10.938)" fill="#a6ae9b"/>
+  <path id="Path_6406" data-name="Path 6406" d="M9.594,6.75a.594.594,0,0,0,.594-.594V2.594A.594.594,0,1,0,9,2.594V6.156A.594.594,0,0,0,9.594,6.75Z" transform="translate(-4.844 -2)" fill="#a6ae9b"/>
+  <path id="Path_6407" data-name="Path 6407" d="M25.594,6.75a.594.594,0,0,0,.594-.594V2.594a.594.594,0,0,0-1.187,0V6.156A.594.594,0,0,0,25.594,6.75Z" transform="translate(-11.344 -2)" fill="#a6ae9b"/>
+  <path id="Path_6408" data-name="Path 6408" d="M13,6h5.937V7.187H13Z" transform="translate(-6.469 -3.625)" fill="#a6ae9b"/>
+</svg>

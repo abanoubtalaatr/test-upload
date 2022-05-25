@@ -1,0 +1,39 @@
+{
+  "name": "mokayiefy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/firebase": "^8.2.2",
+    "@nuxtjs/toast": "^3.3.1",
+    "@tui-nuxt/editor": "^1.0.0-beta.3",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.17.3",
+    "chart.js": "^2.9.4",
+    "cookie-universal-nuxt": "^2.1.5",
+    "core-js": "^3.15.1",
+    "epic-spinners": "^1.1.0",
+    "firebase": "^9.6.11",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "nuxt": "^2.15.7",
+    "nuxt-i18n": "^6.27.3",
+    "nuxt-vue-multiselect": "^1.0.4",
+    "nuxt-vuex-localstorage": "^1.2.6",
+    "pm2": "^5.1.2",
+    "vee-validate": "^2.2.15",
+    "vue": "^2.6.14",
+    "vue-chartjs": "^3.5.1",
+    "vue-js-modal": "^2.0.0-rc.6",
+    "vue-slick-carousel": "^1.0.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/color-mode": "^2.0.2"
+  }
+}

@@ -1,0 +1,495 @@
+/* Start Fonts */
+@font-face {
+  font-family: "NeoSansArabic";
+  src: url("../webfonts/Neo-Regular/NeoSansArabic.otf");
+  src: url("../webfonts/Neo-Regular/Neo-Regular.eot")
+      format("embedded-opentype"),
+    url("../webfonts/Neo-Regular/Neo-Regular.woff2") format("woff2"),
+    url("../webfonts/Neo-Regular/NeoSansArabic.woff") format("woff"),
+    url("../webfonts/Neo-Regular/Neo-Regular.ttf") format("truetype"),
+    url("../webfonts/Neo-Regular/NeoSansArabic.svg") format("svg");
+  font-display: swap;
+}
+/* End Fonts */
+
+/*
+colours
+*/
+:root {
+  --color: #243746;
+  --color-primary: #381058;
+  --color-secondary: #eb4b51;
+  --color-third: #777;
+  --bg: #fff;
+  --bg-secondary: #f4f6f8;
+  --bg-gradient: #fff;
+  --bg-supprt: #fff;
+  --border-color: #ddd;
+  --box-shadow: 0px 1px 10px 1px #ccc;
+  --supp-shadow: 5px 5px 10px #958a8a29;
+}
+
+.dark-mode {
+  --color: #ebf4f1;
+  --color-primary: #fff;
+  --color-secondary: #fff;
+  --color-third: #dedede;
+  --bg: #2d2e2e;
+  --bg-secondary: #95a5ba33;
+  --bg-gradient: #2f0a4d;
+  --bg-support: #95a5ba33;
+  --border-color: #0d2538;
+  --box-shadow: none;
+  --supp-shadow: none;
+}
+/*
+end colours
+*/
+body {
+  /* direction: rtl; */
+  overflow-x: hidden;
+  /* text-align: right; */
+  font-family: "NeoSansArabic", sans-serif;
+  background-color: var(--bg);
+}
+
+/* Start global Style */
+@media (min-width: 1200px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 90%;
+  }
+}
+.main-color {
+  color: #381058;
+}
+.modal-body {
+  color: var(--color-primary);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.form-control::placeholder {
+  color: #91a9c0;
+  opacity: 0.95;
+}
+
+.manage_model_header,
+.manage_model_footer {
+  display: none;
+}
+.manage_model_body {
+  padding: 0;
+}
+
+.label_checkbox_container,
+.label_radio_container {
+  display: block;
+  position: relative;
+  padding-right: 40px;
+  margin-bottom: 14px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: var(--color);
+}
+
+.label_checkbox_container input,
+.label_radio_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.label_checkbox_container .checkmark {
+  border-radius: 4px;
+}
+
+.label_checkbox_container input:checked ~ .checkmark,
+.label_radio_container input:checked ~ .checkmark {
+  background: transparent linear-gradient(104deg, #2f0a4d 0%, #6a2f94 100%);
+}
+
+.checkmark {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border: 1px solid #c6c6c6;
+}
+.label_radio_container .checkmark {
+  border-radius: 50%;
+}
+.label_checkbox_container .checkmark {
+  border-radius: 4px;
+}
+
+.label_checkbox_container input:checked ~ .checkmark,
+.label_radio_container input:checked ~ .checkmark {
+  background: transparent linear-gradient(104deg, #2f0a4d 0%, #6a2f94 100%);
+}
+
+.btn.focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.dash-upper-bar .btn {
+  all: unset;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 16px;
+  color: var(--color);
+}
+
+.dash-upper-bar .btn-secondary:not(:disabled):not(.disabled):active,
+.dash-upper-bar .btn-secondary:not(:disabled):not(.disabled).active,
+.dash-upper-bar .show > .btn-secondary.dropdown-toggle {
+  background: none;
+  border: none;
+  color: var(--color);
+  outline: none;
+  box-shadow: 0 0 0 0 #fff;
+}
+
+.table thead th {
+  background-color: var(--bg-secondary);
+  border: none;
+  font-size: 14px;
+  padding: 20px 0;
+  font-weight: normal;
+  outline: 0;
+  color: var(--color);
+}
+
+.table tbody tr td {
+  color: var(--color);
+}
+
+.main-button,
+.custom {
+  width: 100%;
+  border: none;
+  background: transparent linear-gradient(78deg, #2f0a4d 0%, #6a2f94 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  color: #ffffff;
+  padding: 0.5em 0;
+  transition: all 0.5s ease;
+}
+
+.custom {
+  background: #6de381;
+}
+
+.main-button:hover {
+  background: #fff;
+  color: #707070;
+  border: 1px solid #381058;
+}
+
+.complain_box .details .dropdown {
+  width: 100%;
+  margin: 0 !important;
+}
+.complain_box .details button {
+  border-radius: 20px;
+  width: 100%;
+  display: block;
+  color: var(--color);
+  font-size: 14px;
+  background: none;
+}
+
+.table thead,
+tbody {
+  text-align: center !important;
+}
+
+.input-contant {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+.input-contant.radio {
+  border: 1px solid #dfe0e2;
+  height: 55px;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+.input-contant .input_span {
+  position: absolute;
+  display: inline-block;
+  padding: 0px 25px;
+  top: -0.8em;
+  color: var(--color-third);
+  right: 1.5em;
+  font-size: 16px;
+  background-color: var(--bg-gradient);
+}
+.input-contant.radio label {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.add_sub_content h4 {
+  color: #6a2f94;
+  font-size: 18px;
+  margin-bottom: 4rem;
+}
+.add_sub_content button {
+  font-size: 14px;
+  padding: 0.6rem 5rem;
+  margin-bottom: 2rem;
+}
+.cancel_sub_content,
+.renew_sub_content,
+.update_sub_content,
+.change_sub_content,
+.add_admin_content {
+  padding: 2rem;
+}
+.delete_admin_content {
+  padding: 4rem 3rem;
+}
+.cancel_sub_content h4,
+.renew_sub_content h4,
+.update_sub_content h4,
+.change_sub_content h4,
+.delete_admin_content h4,
+.add_admin_content h4 {
+  color: var(--color-secondary);
+  font-size: 24px;
+  margin-bottom: 3rem;
+}
+.cancel_sub_content h5,
+.renew_sub_content h5,
+.update_sub_content h5 {
+  color: var(--color-secondary);
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+.cancel_sub_content h6,
+.renew_sub_content h6,
+.update_sub_content h6 {
+  font-size: 16px;
+  margin-bottom: 5rem;
+  color: #d362c0;
+}
+.cancel_sub_content button,
+.renew_sub_content button,
+.update_sub_content button,
+.change_sub_content button,
+.delete_admin_content button {
+  width: 100%;
+  font-size: 14px;
+  padding: 0.6rem;
+}
+.add_admin_content a {
+  width: 60%;
+  font-size: 14px;
+  padding: 0.6rem;
+  display: block;
+  margin: 0 auto !important;
+}
+.delete_admin_content button {
+  border-radius: 0 !important;
+  padding: 0.6rem;
+}
+.update_sub_content p,
+.update_sub_content label,
+.change_sub_content label {
+  text-align: right;
+  font-size: 14px;
+  color: var(--color);
+}
+.update_sub_content p {
+  font-size: 16px;
+}
+.update_sub_content .label_radio_container {
+  margin-right: 2rem;
+}
+.update_sub_content h6 {
+  margin-bottom: 2rem;
+}
+.change_sub_content button,
+.update_sub_content button {
+  margin-top: 2rem;
+}
+.update_sub_content .dropdown label {
+  color: #777;
+}
+.update_sub_content .dropdown button {
+  margin: 0;
+}
+
+/* tabs */
+.users_page .nav.nav-tabs li {
+  width: 50%;
+}
+.users_page .nav.nav-tabs li a {
+  width: max-content;
+  border: none;
+  padding: 0.5rem 3rem;
+  color: var(--color);
+  text-align: center;
+  font-size: 20px;
+  background: unset;
+}
+.users_page .nav.nav-tabs li a.active {
+  border-bottom: 4px solid var(--color-primary);
+  border-radius: 2px;
+}
+@media (max-width: 576px) {
+  .cancel_sub_content,
+  .renew_sub_content,
+  .update_sub_content,
+  .change_sub_content,
+  .add_admin_content {
+    padding: 1rem;
+  }
+  .cancel_sub_content button,
+  .renew_sub_content button,
+  .update_sub_content button,
+  .change_sub_content button,
+  .delete_admin_content button {
+    margin-bottom: 1rem;
+  }
+  .change_sub_content .label_radio_container:last-of-type,
+  .update_sub_content .label_radio_container:last-of-type {
+    margin-bottom: 2rem;
+  }
+  .change_sub_content button,
+  .update_sub_content button {
+    margin-top: 0;
+  }
+  .subscriptions_page .table thead tr th,
+  .subscriptions_page .table tbody tr td {
+    font-size: 14px;
+  }
+}
+.dropdown-toggle::after {
+  vertical-align: 0;
+}
+.dir {
+  direction: ltr;
+  align-items: center;
+}
+.pagination {
+  justify-content: center;
+}
+.nav-tabs {
+  font-size: 22px;
+}
+.custom-select {
+  background: #fff
+    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e")
+    no-repeat left 0.75rem center/8px 10px;
+}
+
+.invoicePage .second_div .dropdown-toggle {
+  background: none;
+  color: #777;
+}
+.invoicePage .second_div button {
+  height: 40px;
+  font-size: 14px;
+  padding: 0.5rem 3rem;
+}
+.invoicePage .dropdown.b-form-datepicker {
+  text-align: right;
+  margin-left: 10px;
+}
+.invoicePage .second_div .dropdown button {
+  padding: 0.5rem;
+}
+/* .dropdown-item {
+  text-align: right !important;
+} */
+
+.subscriptions_page .roles_table .table thead th:nth-of-type(2) {
+  width: 70%;
+}
+.swal2-title {
+  font-size: 1.4em !important;
+}
+.invoicePage .second_div .dropdown {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.invoicePage .sub_title button {
+  margin-left: 0 !important;
+}
+.modal-content {
+  background-color: var(--bg);
+}
+
+html.swal2-shown,
+body.swal2-shown {
+  overflow-y: auto !important;
+}
+
+.green {
+  color: #0f7d03;
+}
+
+.red {
+  color: #eb4b51;
+}
+
+.b-toaster-slot .close {
+  float: left;
+  position: relative;
+  top: 2px;
+}
+
+.b-toaster-slot .ml-auto,
+.b-toaster-slot .mx-auto {
+  margin-left: 0 !important;
+  margin-right: auto;
+}
+
+.b-toaster-slot .mb-1,
+.my-1 {
+  margin-bottom: 0 !important;
+}
+
+.table_icon {
+  cursor: pointer;
+}
+
+.btn-outline-primary {
+  border-radius: 0;
+  margin-left: 1rem;
+}
+
+.toast-body,
+.table_search {
+  direction: ltr;
+  text-align: left;
+}
+
+@media (max-width: 450px) {
+  .manage_model_body .actions button {
+    font-size: 12px;
+  }
+}
+.b-form-btn-label-control.dropdown {
+  text-align: right;
+}

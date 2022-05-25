@@ -1,0 +1,101 @@
+.subscribtions_head {
+  margin-top: 3rem;
+}
+.subscribtions_head h4 {
+  color: var(--color-third);
+}
+.subscribtions_head a {
+  font-size: 14px;
+  padding: 0.6rem 1rem;
+  margin: 0;
+  margin-left: 1rem;
+}
+.subscribtions_head a i {
+  margin-right: 10px;
+}
+.search_result {
+  position: relative;
+  width: 185px;
+  color: #bdbdbd;
+  margin-left: 1rem;
+  float: left;
+}
+.search_result input {
+  border-color: #e1e1e1;
+  height: 42px;
+  padding-right: 2.5rem;
+  font-size: 16px;
+}
+.search_result input::placeholder {
+  color: #bdbdbd;
+}
+.search_result label {
+  display: none;
+}
+.search_result i {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #bdbdbd;
+  z-index: 333;
+}
+.subscriptions_page .table tbody td button,
+.subscriptions_page .table tbody td a {
+  background: none;
+  border: none;
+  color: var(--color-primary);
+  font-size: 16px;
+}
+.subscriptions_page .table tbody td button i,
+.subscriptions_page .table tbody td a i {
+  margin-left: 5px;
+}
+.invoicePage {
+  padding-bottom: 2em;
+}
+.sub_title button {
+  margin-left: 20px;
+  margin-top: 1px;
+}
+.invoicePage .upper-search {
+  float: left;
+}
+.invoicePage button {
+  height: 40px;
+  font-size: 14px;
+  padding: 0.5rem 3rem;
+  display: inline-block;
+  width: max-content;
+}
+@media (max-width: 992px) {
+  .subscribtions_head a {
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .subscribtions_head .sub_title {
+    text-align: right !important;
+  }
+  .subscribtions_head a {
+    width: 100%;
+  }
+  .search_result {
+    width: 100%;
+    float: unset;
+  }
+}
+.see_details {
+  background: transparent linear-gradient(104deg, #2f0a4d 0%, #6a2f94 100%);
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 0.25rem;
+}
+
+.subscriptions_page .table tbody tr:nth-child(even) td {
+  border-top: none;
+}
+.subscriptions_page .table tbody tr td {
+  border-top: 3px solid var(--color-primary);
+}
+

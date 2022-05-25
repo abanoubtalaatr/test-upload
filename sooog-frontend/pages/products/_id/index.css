@@ -1,0 +1,20 @@
+.share-network-whatsapp i{
+  color: #738ebe;
+}
+.rate-form{
+  overflow: hidden !important;
+}
+#product-car li {
+  width: unset;
+  height: unset;
+  border: none;
+  border-radius: unset;
+}
+.share-pro img, .share-pro i{
+  margin-right: 10px !important;
+}
+.pdf-icon i, .pdf-icon i:hover{
+  color: #D95B5B;
+  font-size: x-large !important;
+  
+}

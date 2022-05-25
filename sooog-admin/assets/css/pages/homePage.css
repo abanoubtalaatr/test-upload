@@ -1,0 +1,129 @@
+.home-page {
+  padding: 2em 0;
+  font-size: 1.2em;
+  background-color: rgba(0, 0, 0, 0.0026);
+}
+.home-page .user-info {
+  color: var(--color);
+}
+
+.home-page .user-info span {
+  margin: 0 0.5em;
+}
+.home-page .user-info .date {
+  text-align: left;
+}
+
+.Statistecs {
+  padding: 3em 0;
+}
+/* all boxes */
+.invoices,
+.users {
+  box-shadow: var(--box-shadow);
+  padding: 1em 0 0;
+  background-color: var(--bg-secondary);
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+/*  Start Invioces Box  */
+.invoices p:first-of-type {
+  color: var(--color);
+}
+.invoices span {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+.invoices span:first-of-type {
+  color: #6f86ee;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.invoices span:last-of-type {
+  color: var(--color);
+}
+
+.invoices a,
+.support-link a {
+  border-top: 1px dotted #ccc;
+  margin: 1em 0;
+  padding: 1em 0;
+  color: var(--color-secondary);
+  display: block;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+}
+.users a,
+.support-link a {
+  margin: 3em 0 0 0;
+  color: var(--color-secondary);
+}
+
+.Statistecs .invoices a:hover,
+.users a:hover {
+  color: #000;
+}
+.users-statistics {
+  padding: 2em 0 0;
+}
+/*  End Invioces Box  */
+
+/* Start User Box */
+.users {
+  color: var(--color);
+}
+.users p {
+  margin-bottom: 10px;
+}
+.users span {
+  display: inline-block;
+  margin-left: 10px;
+}
+.users .add-user {
+  text-align: center;
+}
+.users .add-user button {
+  padding: 0.5em 4em;
+  margin: 1.5em 0;
+}
+/* End box-users */
+/* Start Box Notifications */
+.notifications {
+  background: transparent linear-gradient(99deg, #febeb1 0%, #fca69d 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 0px 5px 20px #bfc7d11a;
+  border-radius: 12px;
+  padding: 0.5em 1.5em;
+
+  margin: 1em 0;
+}
+.notifications p {
+  color: #fff;
+  margin: 5px 0;
+}
+.notifications p:first-of-type {
+  font-size: 15px;
+}
+.notifications p:last-of-type {
+  font-size: 13px;
+}
+.notifications button {
+  background-color: #f4f6f8;
+  color: #381058;
+  margin-top: 5px;
+  padding: 0px;
+  padding: 0.5em 0px;
+}
+/* End Box Notifications */
+
+@media (max-width: 991px) {
+  .home-page {
+    text-align: center;
+  }
+  .home-page .user-info .date {
+    text-align: center;
+    padding: 10px 0;
+  }
+}
